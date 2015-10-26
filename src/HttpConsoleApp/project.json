@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0-*",
+  "description": "HttpConsoleApp Console Application",
+  "authors": [ "jruckert" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+  },
+
+  "commands": {
+    "HttpConsoleApp": "HttpConsoleApp"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "System.Net.Http": "4.0.1-beta-23409"
+      }
+    }
+  }
+}
